@@ -1,0 +1,477 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: conmic,sans-serif;
+}
+html{font-size:62.5%;}
+
+/*################################# NAV SECTION START ################################*/
+
+.nav{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 9;
+    padding: .5rem 5rem;
+    box-shadow: 0rem .3rem 6.5rem 0rem rgba(0,0,0,.15);
+    margin: 0;     
+}
+.nav .logo{
+    width:55%;
+    float: left;
+    text-transform: uppercase;
+    font-family: conmic,sans-serif;
+    padding-top:.1rem;   
+}
+.nav .logo h3{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+}
+.nav_side{
+    display: flex;
+    width:45%;
+    padding-top: .8rem;
+}
+.nav_side a{  
+    margin: 1rem;
+    padding: .1rem;
+    text-decoration: none;            
+    color: black;
+    font-family: conmic,sans-serif;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.nav_side a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: all is ease;
+}
+
+/*################################# ABOUT SECTION START ################################*/
+
+.about{
+    padding-top: 8rem;
+    
+}
+.mission h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 5rem;
+}
+.mission p{
+    padding: 1rem 5rem;
+    line-height: 2.5rem;
+}
+
+/*################################# BLOG SECTION START ################################*/
+
+
+.blog{
+    background: url(bg.jpg) center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding-top:8rem;
+}
+.blog h1{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 15rem;
+    padding: 3rem;
+}
+
+/*################################# PRODUCT SECTION START ################################*/
+
+
+.product h2{
+    color: black;
+    font-size: 3.5rem;
+    font-family: conmic,sans-serif;
+    text-align: center;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+.product .product_container{
+    display:flex;
+    margin:0 5%;
+}
+
+.product .product_container .item{
+    width: 25%;
+    margin: 5px;
+    height: auto; 
+
+}
+.product .product_container .item:hover{
+    box-shadow: 0rem .3rem 6.5rem 0rem rgba(0,0,0,.30);
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height:25rem;  
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 25rem;
+}
+.product .product_container .item .item_content{
+    text-align: center   
+}
+.product .product_container .item .item_content h3{
+    padding: .5rem;
+    font-size: 2.5rem;
+    font-family: conmic,sans-serif;
+    text-transform: capitalize;
+}
+.product .product_container .item .item_content p{
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-family: conmic,sans-serif;
+
+}
+.product .product_container .item .item_content a{
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    background-color: #ff5722;
+    color: white;
+    font-family: conmic,sans-serif;
+    text-align: center;
+    border: .1rem solid white;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+.product .product_container .item .item_content a:hover{
+    background-color:blue;
+    color: orange;
+    border: none;
+    border-bottom: .2rem solid orange;
+    transition: 0.5s;
+}
+
+/*################################# PRODUCT BTN SECTION START ################################*/
+
+
+.product_btn{
+    text-align: center;
+    margin: 25rem 0rem 5rem 0rem;
+}
+.product_btn a{
+    text-decoration: none;
+    padding: 1rem 1.8rem;
+    background-color: #ff5722;
+    color: white;
+    font-family: conmic,sans-serif;
+    text-align: center;
+    border: .1rem solid white;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+.product_btn a:hover{
+    background-color:blue;
+    color: orange;
+    border: none;
+    border-bottom: .2rem solid orange;
+    transition: 0.5s;
+}
+.keypoint{
+    padding: 1.5rem;
+}
+.keypoint h2{
+    color: black;
+    font-size: 3.5rem;
+    font-family: conmic,sans-serif;
+    text-align: left;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+.keypoint .key_container{
+    display: flex;
+}
+.keypoint .key_container .key_content{
+    width: 50%;
+    float: left;
+}
+.keypoint .key_container li{
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-left: .2rem solid orange;
+    color: black;
+    text-align: left;
+    font-family: conmic,sans-serif;
+    box-shadow: 0rem .3rem 6.5rem 0rem rgba(0,0,0,.15);
+}
+.keypoint .key_container .key_img{
+    float: left;
+}
+.keypoint .key_container .key_img img{
+    width: 100%;
+    margin-left: 10rem;
+    margin-top: 1rem;
+   
+}
+
+/*################################# SLIDER SECTION START ################################*/
+
+.testi{
+    padding: 1rem;   
+}
+.testi h2{
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+.testi .testi_container{
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: center;
+}
+.testi .testi_container .carousel-inner{
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item{
+    width: 100%;
+    padding:.5rem 30rem;
+    background-color: white;
+    box-shadow: none;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 55rem;
+    overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+    width: 100%;
+    height: 40rem;
+    border-radius: 50px;
+    margin-top: 10rem;
+}
+.testi .testi_container .item .item_content{
+    text-align: center   
+}
+.testi .testi_container .item .item_content h3{
+    padding: .5rem;
+    font-size: 2.5rem;
+    font-family: conmic,sans-serif;
+    text-transform: capitalize;
+}
+.testi .testi_container .item .item_content p{
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-family: conmic,sans-serif;
+}
+
+
+/*################################# TEAM SECTION START ################################*/
+
+
+.team{
+    padding:5rem;
+    
+}
+.team h2{
+    color: black;
+    font-size: 3.5rem;
+    text-align:center;
+    padding: 1.8rem;
+    text-transform: uppercase;
+}
+.team .team_container{
+    display:flex;
+    text-align: center;
+    padding-left:2rem;
+    padding-right: 2rem;
+}
+.team .team_container .team_video{
+    width:70rem ;
+   
+    
+}
+.team .team_container .team_video video{
+    width: 100%;
+    float: left;
+    border: 1rem solid orange;
+    outline: none;
+}
+.team .team_container .team_content{
+    float: right;
+    width: 150rem ;
+   
+}
+.team .team_container .team_content p{
+    width: 100%;
+    float: right;
+    padding-left:10rem;
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 2rem;
+
+}
+
+/*################################# FEADBACK SECTION START ################################*/
+
+.feed{
+    background-color: #566573;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;  
+    padding: 2rem; 
+}
+.feed h2{
+    color:#333;
+    font-size: 3.5rem;
+    text-align:center;
+    padding: 1.8rem;
+    text-transform:capitalize;
+
+}
+.feed .feed_form{
+    text-align:center;
+}
+.feed .feed_form form{
+    padding: 2rem;
+}
+.feed .feed_form form input{
+    width: 30%;
+    margin: 1rem;
+    padding: .8rem;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 1rem;
+    padding: .8rem;
+    outline: none;
+    border: none;
+}
+.feed .feed_form form button{
+    width: 18rem;
+    margin: 1rem;
+    padding: .8rem;
+    outline: none;
+    border: none;
+    background-color:#154360;
+    color: white;
+    border-radius: 1rem; 
+    text-decoration: none;
+    font-family: conmic,sans-serif;
+    text-align: center;
+    border: .1rem solid white;
+    transition: 0.5s; 
+}
+
+.feed .feed_form form button:hover{
+    background-color:blue;
+    color: orange;
+    border: none;
+    border-bottom: .2rem solid orange;
+    transition: 0.5s;
+}
+
+
+
+/*################################# FOOTER SECTION START ################################*/
+
+.footer-add{
+    width:100%;
+    height: 60vh;
+    background-color:#909497;
+    text-transform: uppercase;
+    color: rgb(22, 21, 21); 
+    padding-bottom: 0%; 
+
+}
+
+footer .footer-cols{
+    display: grid;
+    grid: gap 2rem;
+    grid-template-columns:repeat(3,1fr);
+    text-align: left
+    font-family:sans-serif;
+
+
+}
+.footer-cols a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    font-size: 2rem;
+    position: relative;
+}
+footer .footer-cols ul{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 10rem;
+    padding-right: 10rem;
+} 
+footer .footer-cols ul li:first-child{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+    border-bottom: hwb(0 4% 96%) solid .1rem;
+    margin-bottom: 1rem;
+}
+footer .footer-add .social{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.fa {
+    padding: 2rem;
+    font-size: 5rem;
+    width: 5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: .5rem .2rem;
+    border-radius: 10rem;
+    }
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+ .fa-telegram{
+    background: #125688;
+    color: white;
+ } 
+.fa-twitter{
+ background: #55ACEE;
+ color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  footer .footer-bottom{
+    background-color: #333;
+    font: size 2rem;
+    padding: 1rem;
+    text-align: center;
+    color:aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
